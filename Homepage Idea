@@ -1,0 +1,84 @@
+<html>
+  <head>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Sofia';font-size: 22px;
+}
+
+
+body {
+  text-align: center;
+   background-image: linear-gradient(90deg, grey, green);
+}
+
+h2{
+  text-align: center;
+  color: #ff8c00;
+  font-family: "Courier", Times, serif;
+  border-style: solid;
+  border-color: blue;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+h3{
+  font-family: Times;
+  color:white;
+}
+
+.left {
+  position: absolute;
+  left: 300px;
+}
+
+.right{
+  position: absolute;
+  right: 300px;
+}
+
+
+</style>
+</head>
+
+  
+ <div id="grad1">
+   <h1>Ronnie W's Homepage</h1>
+  </div> 
+  </body>
+  
+<body>
+  <h2>***Welcome to my Webworld***</h2>
+</body>
+
+<body>
+  <h3>I write code & I ride Horses. Click the photos below</h3>
+</body>
+
+
+
+<div class = "left">
+<body>
+	<a href = https://www.pcgamer.com/>
+ <img class="zoom-small" src="https://live.staticflickr.com/7159/6571675827_0a2e9bdd6a_b.jpg" width="300" height="200"></a href> 
+</body>
+</div>
+
+<div class = "right">
+  <body>
+  <a href = http://www.thorntonpark.ie>
+    <img src="https://live.staticflickr.com/2490/3768007476_98647d032e_n.jpg" width = "300" height = "200"></a href>
+  </body>
+</div>
+
+
+
+
+
+
+</html>
+
+
+
