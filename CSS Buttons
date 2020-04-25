@@ -1,0 +1,83 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+.h1 {
+  text-align: center;
+  }
+
+h3 {
+ color: red;
+}
+
+button {
+  background-color: white;
+}
+
+
+button1:hover {
+  background-color: yellow;
+       color: green;
+}
+
+button2 {
+  background-color: pink;
+}
+
+button2 span {
+  background-color: pink;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button2 span:after {
+  background-color:green;
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button2:hover span {
+  background-color: purple;
+  padding-right: 25px;
+}
+
+button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+<head>
+   <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.css">
+</head>
+
+<body>
+  <h1><em>CSS Button Examples & Effects</h1></em>
+  <br>
+    <h3>Ordinary Button Examples</h3>
+      <button class = "bttn-pill">Submit</button>
+  <button class = "bttn-pill bttn-md">Press</button>
+  <br>
+  <br>
+  
+  <h3>Hover on Button Examples</h3>
+  <button1 class = "bttn-pill">Submit</button1>
+  <button1 class = "bttn-pill bttn-md">Press</button1>
+  <br>
+  <br>
+  
+  <h3>Animated Button Examples</h3>
+  <button2 class = "bttn-pill"><span>Submit</span></button2>
+  <button2 class = "bttn-pill bttn-md"><span>Press</span></button2>
+  <br>
+  <br>
+  
+   </body>
+</html>
