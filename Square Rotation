@@ -1,0 +1,29 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+.dot { width: 100px; height: 100px;  background: red; border-style: solid;
+  border-width: 5px; display: block;
+    margin-left: auto;
+    margin-right: auto;
+  transform: rotate(45deg);
+  -webkit-animation: rotating 10s linear infinite;
+}
+  
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+<br>
+<br>
+<div style="text-align:center">
+  <h1>Square Rotation</h1>
+  <span class="dot"></span>
+</div>
