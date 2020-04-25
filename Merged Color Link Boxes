@@ -1,0 +1,92 @@
+body {
+  background-color: #cc00cc;
+}
+
+.b {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #000066;
+    
+}
+
+.c {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #0000cc;
+}
+
+.d {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #3333ff;
+}
+
+.e {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #8080ff;
+}
+
+
+<html lang="en">
+
+<head>
+ 
+  <meta charset="UTF-8">
+  <title>Color Boxes</title>
+</head>
+  
+<style>
+  a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  </style>
+<div class="b">
+  <div style="text-align:center;">
+    <br>
+    <a href="https://www.w3.org/">W3C</a>
+</div>
+  </div>
+  
+<div class="c">
+  <div style="text-align:center;">
+    <br>
+    <a href="https://www.w3.org/">W3C</a>
+</div>
+</div>
+  
+<div class="d">
+  <div style="text-align:center;">
+    <br>
+    <a href="https://www.w3.org/">W3C</a>
+</div>
+</div>
+  
+<div class="e">
+  <div style="text-align:center;">
+    <br>
+    <a href="https://www.w3.org/">W3C</a>
+</div>
+</div>
