@@ -1,0 +1,36 @@
+body {
+  background-color:#5d40ff
+}
+
+#textFixed {
+  position: fixed;
+  top: 85px;
+  left: 200px;
+}
+
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background: linear-gradient( -45deg,     blue, blue 49%, red 51% ); 
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from { 	transform: rotate(0deg) translateX(150px); }
+	to   {  transform: rotate(360deg) translateX(150px); }
+}
+
+
+
+<div id = "textFixed">
+<div style="text-align:center">
+  <h2>Circle Animation</h2>
+  <span class="dot"></span>
+</div>
+</div>
