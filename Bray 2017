@@ -1,0 +1,95 @@
+body {
+  margin-top:60px;
+  background-size: cover;
+  background-image: url("https://c1.staticflickr.com/8/7096/6911703278_88d913cc88_c.jpg");
+}
+
+p{
+  text-align:center;
+  font-size:75px;
+}
+
+div.third {
+    background: rgba(76, 175, 80, 0.6);
+    text-align: center
+    padding: 50px 30px 50px 80px; 
+    font-size:40px; 
+    }
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.imgwrapper {
+   width: 35%;
+  }
+  
+  
+  <html>
+<head>
+
+  <!--
+Section to make the site visible on mobile devices
+-->
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+Section adding the Google Fonts API
+-->
+  <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine:bold', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <p style = "color:green;">Bray Wanderers FC</p>
+  </body>
+</head>
+
+<!--
+Adding Opaque Box to the page
+-->
+<div class="third"><div style="height:120px;" "width:50px;"><p>Home Ground: The Carlise Grounds</p></div></div>
+<li>&nbsp;</li>  
+
+<!--
+Adding thumbnail images
+-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4 col-centered  thumbnail">
+      <img src="//c1.staticflickr.com/3/2102/2427134303_0c8055e331.jpg" class="img-thumbnail">
+    </div>
+    
+    <li>&nbsp;</li> 
+  
+    <div class="third"><div style="height:100px;" "width:50px;"><p>Support the Seagulls in 2017</p></div></div>
+    
+<!--
+Adding relevant button links
+-->
+<div class="text-center">                                               
+<div class="btn-group" role="group" aria-label="Button Group"> 
+  <a href="http://www.braywanderers.com/" target="_blank" id="code" type="submit" class="btn btn-success" style="width:200px;"> Bray Wanderers FC</a> 
+  
+  <a href="http://www.fai.ie" target="_blank" id="code" type="submit" class="btn btn-success" style="width:200px;"> FAI</a>    
+  
+  
+  </div>
+    </div>
+  
+  </div>
+    </div>
+
+    
+    
+      
