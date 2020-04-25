@@ -1,0 +1,49 @@
+body {
+  background-color: #000000;
+  animation: background 10s ;
+}
+
+#circleCenter {
+  position: absolute;
+  text-align:center;
+  font-style:italic;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  text-shadow: 2px 2px #ff0000;
+  animation-direction: alternate;
+  animation: tutsFade 10s 1s 2 linear alternate;
+  }
+
+@keyframes tutsFade {
+ 
+    0%   {background-color:white; right:0px; top:0px;}
+    100%  {background-color:white; right:1150px; top:0px;}
+    
+}
+
+<html lang="en">
+
+<head>
+ 
+  <meta charset="UTF-8">
+  <title>CIRCLE</title>
+
+</head>
+  
+<body>
+  
+  <div id="circleCenter">
+    <h5>James Bond 007</h5>
+        
+    </div>
+  </div>
+  
+    
+     
+   
+      </body>
+</html>
