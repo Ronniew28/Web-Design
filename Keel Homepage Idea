@@ -1,0 +1,105 @@
+body {
+  background-color: #24248f;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+
+h2 {
+    color: #00ff00;
+}
+
+form {
+    display: inline-block;
+}
+
+.newspaper {
+  color: white;
+}
+
+
+
+<html>
+  
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Lemonada', serif;
+        font-size: 25px;
+      }
+      </style>
+  </head>
+ <br> 
+<body>
+  <div><h1>Keel Co Mayo</div></h1>
+    </>
+  
+  <body>
+  <div class="container">
+ <img src = "https://c1.staticflickr.com/7/6158/6191614020_141da8cf42_b.jpg" class="rounded-circle" alt="Keel Beach" width="304" height="236"> 
+  </div>
+    </body>
+<br> 
+
+<style>
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+  
+  column-gap: 40px;
+   
+  -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+}
+</style>
+</head>
+  
+<body>
+  <h2>Keel Co Mayo</h2>
+   
+     
+  <div class="newspaper">
+    <img src ="https://c1.staticflickr.com/7/6158/6191614020_141da8cf42_b.jpg" width="75" height="55">
+    
+Keel is a small village located on the western end of Achill Island in Co Mayo. There is a wide variety of activities and attraction in the surrounding area with something for everyone. The main focus is the <a href = "http://www.mayo-ireland.ie/en/wild-atlantic-way/keel-beach.html">beach</a> which stretches for approximately 2 miles from end to end. Suitable for <a href = " http://www.outdoorswimming.ie/Co/Mayo/keel.html">swimming</a> and <a href = " http://www.blackfield.com">surfing </a> it is also lifeguard patrolled during the summer months. Horse riding is available at <a href = "http://www.calveysofachill.com/calveys_equestrian_centre.htm">Calveys Equestrian Centre </a> where rides for all abilities can be arranged. The beach ride is particularly while a trek to the deserted village on Slievemore is not to be missed. 
+</div>
+
+<br>
+
+
+  <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    display: inline;
+    padding: 8px;
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Keel,_County_Mayo">Keel</a></li>
+  <li><a href="http://achilltourism.com/">Achill</a></li>
+  <li><a href="http://www.mayo-ireland.ie/en/welcome.html">Co Mayo</a></li>
+  </ul>
+  </br>  
+</body>
+</html>
