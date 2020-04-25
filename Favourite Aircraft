@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1{
+  color: blue;
+}
+
+h2{
+  color: green;
+}
+
+h3 {
+    color: green;
+}
+
+h4 {
+    color: white;
+}
+
+.container {
+      display:inline-block;
+    }
+
+
+
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 40px;
+      }
+        </style>
+  </head>
+
+
+<body>
+<div style="text-align:center">
+  <h1>My Favourite Aircraft</h1>
+</div>
+  <h2>Dublin Airport: The Mound</h2>
+  <h3>A small selection of my photographs </h3>
+  
+ <!-- <p>
+  <img src= "https://c1.staticflickr.com/5/4845/45118779235_838065b8c8_k.jpg" alt="B777" style="float:left;width:300px;height:250px;">
+    </p>
+-->
+  
+  <div class="container">
+    <img src= "https://c1.staticflickr.com/5/4845/45118779235_838065b8c8_k.jpg" alt="A320" style="float:left;width:300px;height:250px;">
+    <p><h4>A-320</p></h4>
+  </div>
+  
+  <div class="container">
+    <img src= "https://c1.staticflickr.com/5/4895/45118779785_6b711ef6ba.jpg'" alt="A330" style="float:left;width:300px;height:250px;">
+    <p><h4>A-320</p></h4>
+  </div>
+
+<div class="container">
+    <img src= "https://c1.staticflickr.com/5/4892/45118780525_cc8b7825ef.jpg" alt="A330" style="float:left;width:300px;height:250px;">
+    <p><h4>A-330</p></h4>
+  </div>
+
+  
+  
+</body>
+  
+ 
+  
