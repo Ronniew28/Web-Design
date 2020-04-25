@@ -1,0 +1,36 @@
+#dot {
+  height: 35px;
+  width: 35px;
+  background-color: #ff291a;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: alternate;  
+  animation-iteration-count: 3;
+  }
+
+@keyframes example {
+  0%  {left:0px; top:20px;}
+  10% {left:100px; top:100px;}
+  20% {left:200px; top:20px;}
+  30% {left:300px; top:100px;}
+  40% {left:400px; top:20px;}
+  50% {left:500px; top:100px;}
+  60% {left:600px; top:20px;}
+  70% {left:700px; top:100px;}
+  80% {left:800px; top:20px;}
+  90% {left:900px; top:100px;}
+  100%  {left:1000px; top:20px;}
+  }
+
+
+  
+  <body>
+
+<div id = "dot">
+  
+  </div>
+  
+</body>
