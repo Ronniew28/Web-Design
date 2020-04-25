@@ -1,0 +1,66 @@
+body {
+  background-image: radial-gradient(red, yellow, red);
+  text-align:center;
+ }
+
+#imagesMain {
+  height: 150px;
+  }
+
+#Links {
+  text-align:center;
+}
+
+
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div><h2>Douglas DC-3</div></h2>
+    </body>
+</html>
+
+<body>
+  <div id="imagesMain">
+
+ <img src = "https://c1.staticflickr.com/4/3034/2544652648_6e4a93b5ff_m.jpg">
+
+    <img src = "https://c1.staticflickr.com/1/533/20149480472_f2de928da9_m.jpg">
+    
+  <img src = "https:////c1.staticflickr.com/5/4272/35117678265_31b2d6a1ea_m.jpg">
+ 
+  </div> 
+  
+  <h3>Some DC-3 Facts</h3>
+  <ul>
+    <li>First Flight: December 17 1935</li>
+    <li>Number Built: 607</li>
+    <li>Top Flight Speed: 207 MPH</li>
+    <li>Number Still in Service: 1000 (est)
+  </ul>
+
+  <body>
+    <div><h2>Useful Links</div></h2>
+    <div id = "Links">
+      <ul>
+      <li>A detailed history of the DC-3 is available <a href = https://en.wikipedia.org/wiki/Douglas_DC-3>here</li></a> 
+     <li> A history of the Douglas Aircraft Company is available <a href = https://en.wikipedia.org/wiki/Douglas_Aircraft_Company>here</li></a>
+    </ul>
+    </div>
+    </body>
+ 
+<body>
+    <div><h4>**********</div></h4>
+    </body>
+
+</html>
+</body>
