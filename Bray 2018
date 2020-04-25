@@ -1,0 +1,115 @@
+body {
+  background-color: #18821e;
+  text-align: center;
+  text-shadow: 2px 2px white;
+}
+
+.b {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #183b19;
+    
+}
+
+.c {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #265c28;
+}
+
+.d {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #183b19;
+}
+
+.e {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    margin-right: -1%;
+    float: left;
+    width: 23%;
+    height: 75px;
+    background-color: #265c28;
+}
+
+
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Rubik', serif;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div><h2>Bray Wanderers 2018 Season</div></h2>
+  
+  <body>
+<img src="https:////c1.staticflickr.com/3/2906/14709386573_c2a3fce5a8_m.jpg" alt="Bray Wanderers" width="300" height="300">
+</body>
+
+    <div class="third"><div style="height:100px;" "width:50px;"><p>Support the Seagulls in 2018</p></div></div>
+
+<body>
+    <div>Useful Links</div>  
+    </body>  
+    <br/>
+    
+<style>
+  a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  </style>
+<div class="b">
+  <div style="text-align:center;">
+    <br>
+    <a href="http://braywanderersfc.ie/">Bray Wanderers</a>
+</div>
+  </div>
+  
+<div class="c">
+  <div style="text-align:center;">
+    <br>
+    <a href="https://www.sseairtricityleague.ie/">League of Ireland</a>
+</div>
+</div>
+  
+<div class="d">
+  <div style="text-align:center;">
+    <br>
+    <a href="https://www.independent.ie/regionals/braypeople/">Bray People</a>
+</div>
+</div>
+  
+<div class="e">
+  <div style="text-align:center;">
+    <br>
+    <a href="http://www.fai.ie/">FAI</a>
+</div>
+</div>    
+  
+ 
+  </body>
+</html>
