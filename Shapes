@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+
+#dot {
+  height: 35px;
+  width: 35px;
+  background-color: #ff291a;
+  border-radius: 50%;
+  }
+  
+#square {
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+	}
+	
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: yellow;
+}
+	
+	
+
+	
+</style>
+</head>
+
+<body>
+
+<div id = "dot"></div>
+<br>
+<div id = "square"></div>
+<br>
+<div class = "rectangle"></div>
+
+
+</body>
+</html>
