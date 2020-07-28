@@ -1,0 +1,93 @@
+body {
+  background-color: blue;
+  text-align: center;
+  }
+
+.button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {font-size: 16px;}
+
+
+
+<h1> Form Project</h1>
+<br>
+<h2> A sample exercise to build a form</h2>
+
+<form action="/action_page.php">
+  <fieldset>
+  
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" >
+ <br>
+  
+  <label for="email">Email:</label>
+  <br>
+  <input type="email" id="email" name="email">
+  <br>
+  
+  <label for"number">Number:</label>
+  <br>
+  <input type="nummber" id="number" name="number">
+  </fieldset>
+  <br>
+  
+  <fieldset>
+				<legend>Please select one of the options </legend>
+				
+		<p>
+			<input type = "checkbox"
+					id = "opt1"
+					value = "Option 1" />Option 1
+		</p>
+
+		<p>
+			<input type = "checkbox"
+					id = "opt2"
+					value = "Option 2" />Option 2
+		</p>
+		
+		<p>
+			<input type = "checkbox"
+					id = "opt3"
+					value = "Option 3" />Option 3
+		</p>
+    </fieldset>
+    
+  <fieldset> 
+  <p>
+			<label>Please select an option below</label>
+				<select id = "Options">
+					<option value = "#black">Black</option>
+					<option value = "#yellow">Yellow</option>
+					<option value = "#red">Red</option>
+				</select>
+		</p>
+  </fieldset>
+    
+    <fieldset>
+			<p>
+				<label>
+					Any furthur comments
+						</label>
+							</p>
+			<p>
+				<textarea id = "txtStuff"
+					rows = "10"
+					cols = "40"></textarea>
+			</p>
+		</fieldset>
+  
+  <button class="button button1">Submit</button>
+  
+  
+</form> 
