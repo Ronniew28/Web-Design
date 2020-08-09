@@ -1,0 +1,25 @@
+body {
+  background-color: red;
+  text-align: center;
+  }
+
+.white {
+  color:#ffffff;
+  font-size: 40px;
+}
+
+
+<html>
+  <div class = "white">
+<style>
+   h2:after {
+    content: ' \2716';
+}
+   
+</style>
+  
+<body>
+  <h2></h2>
+
+  </body>
+</html>
