@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://live.staticflickr.com/450/31522938670_c7a357b520_n.jpg");
+  text-align: center;
+}
+
+div.third {
+    background: rgba(51, 51, 204, 0.9);
+    text-align: center
+    padding: 50px 30px 50px 80px; 
+    font-size:40px; 
+    }
+
+
+
+<head>
+<style>
+div.titleSize {
+  font-size: 75px;
+  font-family: Impact, Charcoal, sans-serif;
+   text-shadow: 2px 2px #FF0000;
+}
+</style>
+</head>
+
+<body>
+  <div class = "titleSize">Peterhead FC</div>
+  
+  <div class="third"><div style="height:120px;" "width:50px;"><p>Home Ground: Balmoor</p></div></div>
+<li>&nbsp;</li>  
+  
+  <img src = "https://live.staticflickr.com/5046/5361064335_6219b90d33_b.jpg<style="width:500px;height:100px;">
+ 
+                                                                                 <span style="text-decoration: underline;"><h1>Useful Links</h1> </span style>    
+                                                                                                                          <p><a href = "https://www.peterheadfc.org/">Peterhead FC</a></p>
+                                                                                                                        <p><a href = "https://spfl.co.uk/">Scottish Football</a></p>
+                                                                                                              
