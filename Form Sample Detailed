@@ -1,0 +1,65 @@
+body {
+  background-color: #d2ff4d;
+}
+
+
+<head>
+  <title>Race Form</title>
+</head>
+
+<body>
+  <h2>Race Registration Form</h2>
+   <form action = "">
+     
+     <p>
+    <label>First Name</label>
+    <input type = "text" id = "first" name = "firstname" required
+           value = ""/>
+       
+    <label>Last Name</label>
+    <input type = "text" id = "last" name = "secondname" required
+           value = ""/>
+         </p>
+          
+     <div>
+     <input type = "radio" name = "race" id = "funrun" value = "funrun">
+     <label for = "funrun">Fun Run 5k</label>
+     </div>
+     
+     <div>
+     <input type = "radio" name = "race" id = "half" value = "half">
+     <label for = "half">Half Marathon</label>
+     </div>
+     
+     <input type = "radio" name = "race" id = "full marathon" value = "full marathon">
+     <label for = "full marathon">Full Marathon</label>
+     <br>
+     
+     <div>
+       <label for = "email">Email</label>
+     <input type = "email" name = "email" id = "email" required>
+       <label for = "password">Password</label>
+       <input type = "password" name = "password" id = "password">
+        </div>
+     
+     <div>
+     <label>Age Group</label>
+      <label for="age"></label>
+  <select name = "age" id = "age">
+    <option value="">--Please select your Age Group--</option>
+    <option value="18-30">18-30</option>
+    <option value="30-50">30-50</option>
+    <option value="50-75">50-75</option>
+      </select>
+     </div>
+     
+     <p>
+       <input type = "submit"/>
+    <input type = "reset"/>
+     </p>
+     
+     
+    </form>
+  </body>
+  
+  
