@@ -1,0 +1,28 @@
+body {
+  background-color: yellow;
+  }
+
+img {
+  border: 5px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 30%;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+<html>
+  <head>
+    <title>Exercise</title>
+    
+    <body>
+      <img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg">
+      <img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg">
+      <img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg">
+      <img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg">
+      <img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg">
+      <img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg">
+      
+      
+    </body>
+    </html>
