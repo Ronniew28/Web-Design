@@ -1,0 +1,73 @@
+h2 {
+  text-align: center;
+  background-color: yellow;
+  }
+
+.container {
+  background-color: blue;
+}
+
+.row figure {
+    padding: 10px;
+    background: red;
+    display: inline-block;
+    }
+
+.text-center {
+  text-align: center;
+}
+
+<html>
+  <head>
+    <title>Bootstrap Practise</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+<body>
+      <div class = "container">
+        <h2>HEADER</h2>
+        <body>
+  <div class = "container">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    
+    <div class="row">
+    <div class="col-md-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+      
+      <div class="row">
+    <div class="col-md-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+        
+     <div class = "container">
+  <div class = "row" style = "margin: 100px;">
+    
+    <div class="text-center">
+   <figure> <img class="pull-left" img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg" style="width:400px;height:400px;"></figure>
+    <figure><img class="pull-left" img src = "https://live.staticflickr.com/8360/8368021426_9f25fe7608_b.jpg" style="width:400px;height:400px;"></figure>
+    </div>
+  </div>  
+        </div>
+        
+        <div class = "container">
+           <h2>FOOTER</H2>  
+        </div>
+          
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>  
+  <br>
+    
+    </body>
+    </html>
